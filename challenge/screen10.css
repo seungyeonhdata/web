@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+.bigbox {
+  border: 5px solid turquoise;
+  width: 400px;
+  height: 850px;
+  padding: 40px 20px;
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.topbar__x {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.topbar__playlist {
+  font-size: 30px;
+  font-weight: 800;
+  padding-left: 100px;
+}
+.now-playing {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+.now-playing__pic {
+  background-color: #ffbd11;
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.now-playing__pic_box {
+  width: 70px;
+  height: 70px;
+  color: white;
+}
+.now-playing__info {
+  width: 200px;
+  transform: translate(15px);
+}
+.now-playing__info_title {
+  font-weight: 900;
+  font-size: 40px;
+}
+.now-playing__info_singer {
+  font-weight: 700;
+  font-size: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 3px;
+}
+.icons__basic:hover {
+  background-color: turquoise;
+  transition: 0.5s ease-in-out;
+}
+.icons__basic {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 3px solid black;
+  box-shadow: 0px 5px black;
+}
+.icons__play {
+  width: 180px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+.icons__play_word {
+  font-size: 25px;
+  font-weight: 800;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+.fa-heart,
+.fa-plus {
+  transform: scale(1.5, 1.5);
+}
+.next-songs_box {
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 12px 0px;
+}
+.next-songs_box:hover {
+  background-color: turquoise;
+  transition: 0.5s ease-in-out;
+}
+.next-songs__color {
+  width: 60px;
+  height: 60px;
+  border: 3px solid black;
+  border-radius: 13px;
+  margin: 20px;
+}
+.next-songs_box:first-child .next-songs__color {
+  background-color: #f85a2a;
+}
+.next-songs_box:nth-child(2) .next-songs__color {
+  background-color: #fe89bb;
+}
+.next-songs_box:nth-child(3) .next-songs__color {
+  background-color: #1847e5;
+}
+.next-songs_box:last-child .next-songs__color {
+  background-color: #01c1a9;
+}
+
+.next-songs__title {
+  font-size: 25px;
+  font-weight: 900;
+}
+.next-songs__singer {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.7;
+}
